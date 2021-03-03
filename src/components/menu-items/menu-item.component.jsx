@@ -17,3 +17,5 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
 );
 
 export default withRouter(MenuItem);
+
+//withRouter line 19 gets access to history prop of homepage
